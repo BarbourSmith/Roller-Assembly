@@ -2,12 +2,12 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Roller Assembly",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 659833,
+            "name": "Roller",
+            "x": 357,
+            "y": 49,
+            "uniqueID": 480013,
             "ioValues": [],
-            "topLevel": true,
+            "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Output",
@@ -18,6 +18,178 @@
                 }
             ],
             "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Bearings",
+            "x": 361,
+            "y": 115,
+            "uniqueID": 324584,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Roller Assembly",
+            "x": 0,
+            "y": 0,
+            "uniqueID": 659833,
+            "ioValues": [
+                {
+                    "name": "Overall Length",
+                    "ioValue": 40
+                }
+            ],
+            "topLevel": true,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Overall Length",
+                    "x": 43,
+                    "y": 91,
+                    "uniqueID": 903654,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Shoulder Length",
+                    "x": 45,
+                    "y": 156,
+                    "uniqueID": 151702,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 228,
+                    "y": 69,
+                    "uniqueID": 327001,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Roller",
+                    "x": 357,
+                    "y": 49,
+                    "uniqueID": 480013,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Bearings",
+                    "x": 361,
+                    "y": 115,
+                    "uniqueID": 324584,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Skateboard Bearing",
+                    "x": 643,
+                    "y": 136,
+                    "uniqueID": 471494,
+                    "projectID": "197579076",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller",
+                    "x": 670,
+                    "y": 36,
+                    "uniqueID": 996278,
+                    "projectID": "197579630",
+                    "ioValues": [
+                        {
+                            "name": "Shoulder Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Center Length",
+                            "ioValue": 30
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 846,
+                    "y": 115,
+                    "uniqueID": 308787,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 564381",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 220997",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 283596",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 903654,
+                    "ap2ID": 327001
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 564381",
+                    "ap1ID": 471494,
+                    "ap2ID": 308787
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 220997",
+                    "ap1ID": 996278,
+                    "ap2ID": 308787
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 308787
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
