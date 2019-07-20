@@ -282,7 +282,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 15
+                            "ioValue": 12
                         },
                         {
                             "name": "zDist",
@@ -320,11 +320,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -15
+                            "ioValue": -12
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 15
+                            "ioValue": 12
                         },
                         {
                             "name": "zDist",
@@ -341,11 +341,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -15
+                            "ioValue": -12
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -15
+                            "ioValue": -12
                         },
                         {
                             "name": "zDist",
@@ -565,8 +565,8 @@
                 {
                     "atomType": "Input",
                     "name": "Overall Length",
-                    "x": 42,
-                    "y": 104,
+                    "x": 71,
+                    "y": 54,
                     "uniqueID": 903654,
                     "ioValues": []
                 },
