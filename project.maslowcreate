@@ -115,8 +115,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearings",
-            "x": 354,
-            "y": 117,
+            "x": 351,
+            "y": 116,
             "uniqueID": 324584,
             "ioValues": [
                 {
@@ -556,7 +556,7 @@
             "uniqueID": 659833,
             "ioValues": [
                 {
-                    "name": "Overall Length",
+                    "name": "Distance Between Walls",
                     "ioValue": 60
                 }
             ],
@@ -564,7 +564,7 @@
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "Overall Length",
+                    "name": "Distance Between Walls",
                     "x": 71,
                     "y": 54,
                     "uniqueID": 903654,
@@ -586,8 +586,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearings",
-                    "x": 354,
-                    "y": 117,
+                    "x": 351,
+                    "y": 116,
                     "uniqueID": 324584,
                     "ioValues": [
                         {
