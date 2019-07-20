@@ -23,6 +23,37 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Shoulder Length",
+                    "x": 82,
+                    "y": 183,
+                    "uniqueID": 598875,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 7
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller",
+                    "x": 340,
+                    "y": 131,
+                    "uniqueID": 829505,
+                    "projectID": "197579630",
+                    "ioValues": [
+                        {
+                            "name": "Shoulder Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Center Length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
