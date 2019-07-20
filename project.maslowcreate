@@ -23,8 +23,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearings",
-            "x": 353,
-            "y": 130,
+            "x": 355,
+            "y": 113,
             "uniqueID": 324584,
             "ioValues": [],
             "topLevel": false,
@@ -43,8 +43,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearing Blocks",
-            "x": 351,
-            "y": 209,
+            "x": 357,
+            "y": 171,
             "uniqueID": 359614,
             "ioValues": [],
             "topLevel": false,
@@ -124,16 +124,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearings",
-                    "x": 353,
-                    "y": 130,
+                    "x": 355,
+                    "y": 113,
                     "uniqueID": 324584,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Bearing Blocks",
-                    "x": 351,
-                    "y": 209,
+                    "x": 357,
+                    "y": 171,
                     "uniqueID": 359614,
                     "ioValues": []
                 },
