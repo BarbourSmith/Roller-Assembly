@@ -249,7 +249,7 @@
         {
             "atomType": "Molecule",
             "name": "Bolts",
-            "x": 351,
+            "x": 353,
             "y": 236,
             "uniqueID": 643243,
             "ioValues": [
@@ -263,8 +263,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "M4 Bolt",
-                    "x": 167,
-                    "y": 100,
+                    "x": 62,
+                    "y": 70,
                     "uniqueID": 948800,
                     "projectID": "197564175",
                     "ioValues": []
@@ -278,31 +278,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 355,
-                    "y": 116,
-                    "uniqueID": 310635,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": -180
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 590,
-                    "y": 45,
+                    "x": 475,
+                    "y": 51,
                     "uniqueID": 484106,
                     "ioValues": [
                         {
@@ -322,29 +301,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 592,
-                    "y": 112,
-                    "uniqueID": 379590,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 15
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -15
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 607,
-                    "y": 189,
+                    "x": 492,
+                    "y": 161,
                     "uniqueID": 287844,
                     "ioValues": [
                         {
@@ -364,8 +322,29 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 587,
-                    "y": 257,
+                    "x": 526,
+                    "y": 102,
+                    "uniqueID": 379590,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 15
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -15
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 496,
+                    "y": 220,
                     "uniqueID": 842977,
                     "ioValues": [
                         {
@@ -421,36 +400,6 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 948800,
-                    "ap2ID": 310635
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 310635,
-                    "ap2ID": 484106
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 310635,
-                    "ap2ID": 379590
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 310635,
-                    "ap2ID": 287844
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 310635,
-                    "ap2ID": 842977
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 709992",
                     "ap1ID": 484106,
@@ -458,14 +407,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 900201",
-                    "ap1ID": 379590,
+                    "ap2Name": "3D shape 816242",
+                    "ap1ID": 287844,
                     "ap2ID": 361045
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 816242",
-                    "ap1ID": 287844,
+                    "ap2Name": "3D shape 900201",
+                    "ap1ID": 379590,
                     "ap2ID": 361045
                 },
                 {
@@ -541,7 +490,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 351,
+                    "x": 353,
                     "y": 236,
                     "uniqueID": 643243,
                     "ioValues": [
