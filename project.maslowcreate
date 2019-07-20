@@ -43,12 +43,12 @@
                     "uniqueID": 474292,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 60
-                        },
-                        {
                             "name": "y",
                             "ioValue": 7
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 60
                         }
                     ],
                     "currentEquation": 1
@@ -249,8 +249,8 @@
         {
             "atomType": "Molecule",
             "name": "Bolts",
-            "x": 353,
-            "y": 236,
+            "x": 351,
+            "y": 232,
             "uniqueID": 643243,
             "ioValues": [
                 {
@@ -278,7 +278,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 15
+                            "ioValue": 12
                         },
                         {
                             "name": "yDist",
@@ -299,11 +299,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 15
+                            "ioValue": 12
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -15
+                            "ioValue": -12
                         },
                         {
                             "name": "zDist",
@@ -607,8 +607,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 353,
-                    "y": 236,
+                    "x": 351,
+                    "y": 232,
                     "uniqueID": 643243,
                     "ioValues": [
                         {

@@ -2,6 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|Bearing|1|1.5|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
+|Bearing|1|1.5|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
 |M4 Bolt|1|0.087|https://www.mcmaster.com/91290a144|
 |M4 Bolt|1|0.087|https://www.mcmaster.com/91290a144|
 |M4 Bolt|1|0.087|https://www.mcmaster.com/91290a144|
