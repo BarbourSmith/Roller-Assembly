@@ -249,10 +249,15 @@
         {
             "atomType": "Molecule",
             "name": "Bolts",
-            "x": 356,
-            "y": 237,
+            "x": 351,
+            "y": 236,
             "uniqueID": 643243,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Overall Length",
+                    "ioValue": 60
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -262,6 +267,14 @@
                     "y": 100,
                     "uniqueID": 948800,
                     "projectID": "197564175",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Overall Length",
+                    "x": 177,
+                    "y": 269,
+                    "uniqueID": 930595,
                     "ioValues": []
                 },
                 {
@@ -361,7 +374,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -15
                         },
                         {
                             "name": "zDist",
@@ -528,10 +541,15 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 356,
-                    "y": 237,
+                    "x": 351,
+                    "y": 236,
                     "uniqueID": 643243,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Overall Length",
+                            "ioValue": 60
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -550,6 +568,10 @@
                         },
                         {
                             "name": "3D shape 671517",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 925802",
                             "ioValue": 10
                         }
                     ]
@@ -576,6 +598,12 @@
                     "ap2ID": 324584
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Overall Length",
+                    "ap1ID": 903654,
+                    "ap2ID": 643243
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 283596",
                     "ap1ID": 480013,
@@ -585,6 +613,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 608164",
                     "ap1ID": 324584,
+                    "ap2ID": 308787
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 671517",
+                    "ap1ID": 643243,
                     "ap2ID": 308787
                 },
                 {
