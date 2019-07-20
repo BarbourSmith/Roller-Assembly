@@ -288,17 +288,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 595,
-                    "y": 47,
+                    "x": 590,
+                    "y": 45,
                     "uniqueID": 484106,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 15
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 15
                         },
                         {
                             "name": "zDist",
@@ -309,17 +309,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 593,
-                    "y": 118,
+                    "x": 592,
+                    "y": 112,
                     "uniqueID": 379590,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 15
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -15
                         },
                         {
                             "name": "zDist",
@@ -330,17 +330,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 583,
-                    "y": 185,
+                    "x": 607,
+                    "y": 189,
                     "uniqueID": 287844,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -15
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 15
                         },
                         {
                             "name": "zDist",
@@ -351,13 +351,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 567,
-                    "y": 274,
+                    "x": 587,
+                    "y": 257,
                     "uniqueID": 842977,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -15
                         },
                         {
                             "name": "yDist",
@@ -390,6 +390,10 @@
                         },
                         {
                             "name": "3D shape 709992",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 611050",
                             "ioValue": 10
                         }
                     ]
@@ -435,6 +439,12 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 709992",
+                    "ap1ID": 484106,
+                    "ap2ID": 361045
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 900201",
                     "ap1ID": 379590,
                     "ap2ID": 361045
@@ -450,6 +460,11 @@
                     "ap2Name": "3D shape 680709",
                     "ap1ID": 842977,
                     "ap2ID": 361045
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 361045
                 }
             ],
             "fileTypeVersion": 1
