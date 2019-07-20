@@ -3,12 +3,25 @@
         {
             "atomType": "Molecule",
             "name": "Roller",
-            "x": 354,
-            "y": 55,
+            "x": 360,
+            "y": 56,
             "uniqueID": 480013,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Overall Length",
+                    "ioValue": 60
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Overall Length",
+                    "x": 81,
+                    "y": 88,
+                    "uniqueID": 461616,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -62,6 +75,26 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Bolts",
+            "x": 351,
+            "y": 239,
+            "uniqueID": 643243,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Roller Assembly",
             "x": 0,
             "y": 0,
@@ -96,30 +129,17 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 228,
-                    "y": 69,
-                    "uniqueID": 327001,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 0
-                        }
-                    ],
-                    "currentEquation": 0
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Roller",
-                    "x": 354,
-                    "y": 55,
+                    "x": 360,
+                    "y": 56,
                     "uniqueID": 480013,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Overall Length",
+                            "ioValue": 60
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -138,6 +158,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Bolts",
+                    "x": 351,
+                    "y": 239,
+                    "uniqueID": 643243,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Skateboard Bearing",
                     "x": 643,
@@ -149,7 +177,7 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 670,
+                    "x": 669,
                     "y": 36,
                     "uniqueID": 996278,
                     "projectID": "197579630",
@@ -194,12 +222,6 @@
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 903654,
-                    "ap2ID": 327001
-                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 564381",
