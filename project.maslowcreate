@@ -258,11 +258,32 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "M4 Bolt",
-                    "x": 300,
-                    "y": 157,
+                    "x": 167,
+                    "y": 100,
                     "uniqueID": 948800,
                     "projectID": "197564175",
                     "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 325,
+                    "y": 196,
+                    "uniqueID": 310635,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": -180
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -272,7 +293,19 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 948800
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 948800,
+                    "ap2ID": 310635
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
