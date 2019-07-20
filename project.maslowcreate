@@ -137,8 +137,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Skateboard Bearing",
-                    "x": 320,
-                    "y": 266,
+                    "x": 330,
+                    "y": 223,
                     "uniqueID": 157368,
                     "projectID": "197579076",
                     "ioValues": []
@@ -331,15 +331,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Skateboard Bearing",
-                    "x": 613,
-                    "y": 238,
-                    "uniqueID": 471494,
-                    "projectID": "197579076",
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 846,
@@ -347,15 +338,15 @@
                     "uniqueID": 308787,
                     "ioValues": [
                         {
-                            "name": "3D shape 564381",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 283596",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 608164",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 671517",
                             "ioValue": 10
                         }
                     ]
@@ -389,8 +380,8 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 564381",
-                    "ap1ID": 471494,
+                    "ap2Name": "3D shape 608164",
+                    "ap1ID": 324584,
                     "ap2ID": 308787
                 },
                 {
