@@ -3,13 +3,13 @@
         {
             "atomType": "Molecule",
             "name": "Roller",
-            "x": 360,
-            "y": 56,
+            "x": 359,
+            "y": 60,
             "uniqueID": 480013,
             "ioValues": [
                 {
                     "name": "Overall Length",
-                    "ioValue": 60
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -36,20 +36,38 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 275,
+                    "y": 96,
+                    "uniqueID": 474292,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 7
+                        }
+                    ],
+                    "currentEquation": 1
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 340,
-                    "y": 131,
+                    "x": 477,
+                    "y": 130,
                     "uniqueID": 829505,
                     "projectID": "197579630",
                     "ioValues": [
                         {
                             "name": "Shoulder Length",
-                            "ioValue": 10
+                            "ioValue": 7
                         },
                         {
                             "name": "Center Length",
-                            "ioValue": 10
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -61,7 +79,37 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 461616,
+                    "ap2ID": 474292
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Shoulder Length",
+                    "ap1ID": 598875,
+                    "ap2ID": 829505
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "y",
+                    "ap1ID": 598875,
+                    "ap2ID": 474292
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "Center Length",
+                    "ap1ID": 474292,
+                    "ap2ID": 829505
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 829505
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -141,34 +189,21 @@
                 {
                     "atomType": "Input",
                     "name": "Overall Length",
-                    "x": 43,
-                    "y": 91,
+                    "x": 40,
+                    "y": 97,
                     "uniqueID": 903654,
                     "ioValues": []
                 },
                 {
-                    "atomType": "Constant",
-                    "name": "Shoulder Length",
-                    "x": 45,
-                    "y": 156,
-                    "uniqueID": 151702,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 8
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Roller",
-                    "x": 360,
-                    "y": 56,
+                    "x": 359,
+                    "y": 60,
                     "uniqueID": 480013,
                     "ioValues": [
                         {
                             "name": "Overall Length",
-                            "ioValue": 60
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -199,29 +234,11 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Skateboard Bearing",
-                    "x": 643,
-                    "y": 136,
+                    "x": 613,
+                    "y": 238,
                     "uniqueID": 471494,
                     "projectID": "197579076",
                     "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Roller",
-                    "x": 669,
-                    "y": 36,
-                    "uniqueID": 996278,
-                    "projectID": "197579630",
-                    "ioValues": [
-                        {
-                            "name": "Shoulder Length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Center Length",
-                            "ioValue": 30
-                        }
-                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -235,11 +252,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 220997",
+                            "name": "3D shape 283596",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 283596",
+                            "name": "3D shape 608164",
                             "ioValue": 10
                         }
                     ]
@@ -254,15 +271,21 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Overall Length",
+                    "ap1ID": 903654,
+                    "ap2ID": 480013
+                },
+                {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 564381",
-                    "ap1ID": 471494,
+                    "ap2Name": "3D shape 283596",
+                    "ap1ID": 480013,
                     "ap2ID": 308787
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 220997",
-                    "ap1ID": 996278,
+                    "ap2Name": "3D shape 564381",
+                    "ap1ID": 471494,
                     "ap2ID": 308787
                 },
                 {
