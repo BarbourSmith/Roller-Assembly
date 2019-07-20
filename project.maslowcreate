@@ -115,12 +115,25 @@
         {
             "atomType": "Molecule",
             "name": "Bearings",
-            "x": 355,
-            "y": 113,
+            "x": 353,
+            "y": 118,
             "uniqueID": 324584,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input638143",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input638143",
+                    "x": 42,
+                    "y": 116,
+                    "uniqueID": 370322,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -210,10 +223,15 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearings",
-                    "x": 355,
-                    "y": 113,
+                    "x": 353,
+                    "y": 118,
                     "uniqueID": 324584,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Input638143",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
