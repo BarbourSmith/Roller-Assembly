@@ -61,77 +61,13 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Bearings",
-            "x": 351,
-            "y": 112,
-            "uniqueID": 324584,
-            "ioValues": [
-                {
-                    "name": "Overall Length",
-                    "ioValue": 60
-                }
-            ],
+            "name": "Molecule",
+            "x": 356,
+            "y": 134,
+            "uniqueID": 263311,
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Overall Length",
-                    "x": 39,
-                    "y": 119,
-                    "uniqueID": 370322,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Skateboard Bearing",
-                    "x": 330,
-                    "y": 223,
-                    "uniqueID": 157368,
-                    "projectID": "197579076",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 410,
-                    "y": 120,
-                    "uniqueID": 453931,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 60
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 879,
-                    "y": 127,
-                    "uniqueID": 898673,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 874096",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 649431",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 803597",
-                            "ioValue": 10
-                        }
-                    ]
-                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -140,37 +76,7 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
-                    "ap1ID": 370322,
-                    "ap2ID": 453931
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 157368,
-                    "ap2ID": 453931
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 874096",
-                    "ap1ID": 157368,
-                    "ap2ID": 898673
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 649431",
-                    "ap1ID": 453931,
-                    "ap2ID": 898673
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 898673
-                }
-            ],
+            "allConnectors": [],
             "fileTypeVersion": 1
         },
         {
@@ -210,16 +116,11 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Bearings",
-                    "x": 351,
-                    "y": 112,
-                    "uniqueID": 324584,
-                    "ioValues": [
-                        {
-                            "name": "Overall Length",
-                            "ioValue": 60
-                        }
-                    ]
+                    "name": "Molecule",
+                    "x": 356,
+                    "y": 134,
+                    "uniqueID": 263311,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -230,10 +131,6 @@
                     "ioValues": [
                         {
                             "name": "3D shape 283596",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 608164",
                             "ioValue": 10
                         },
                         {
@@ -258,21 +155,9 @@
                     "ap2ID": 480013
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Overall Length",
-                    "ap1ID": 903654,
-                    "ap2ID": 324584
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 283596",
                     "ap1ID": 480013,
-                    "ap2ID": 308787
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 608164",
-                    "ap1ID": 324584,
                     "ap2ID": 308787
                 },
                 {
