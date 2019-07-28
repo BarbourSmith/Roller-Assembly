@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller",
-            "x": 351,
-            "y": 58,
+            "x": 348,
+            "y": 53,
             "uniqueID": 480013,
             "ioValues": [
                 {
@@ -37,6 +37,27 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 815,
+                    "y": 195,
+                    "uniqueID": 514004,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -7
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -55,6 +76,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 829505
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 829505,
+                    "ap2ID": 514004
                 }
             ],
             "fileTypeVersion": 1
@@ -68,7 +95,7 @@
             "ioValues": [
                 {
                     "name": "Dist Between Bearings",
-                    "ioValue": 10
+                    "ioValue": 60
                 }
             ],
             "topLevel": false,
@@ -89,6 +116,20 @@
                     "uniqueID": 264762,
                     "projectID": "198286049",
                     "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 301,
+                    "y": 203,
+                    "uniqueID": 993945,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 60
+                        }
+                    ],
+                    "currentEquation": "W+7"
                 },
                 {
                     "atomType": "Translate",
@@ -149,7 +190,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 60
+                            "ioValue": 67
                         }
                     ]
                 },
@@ -167,6 +208,10 @@
                         {
                             "name": "3D shape 247361",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 396695",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -180,10 +225,22 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 108908,
+                    "ap2ID": 993945
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 264762,
                     "ap2ID": 861282
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 993945,
+                    "ap2ID": 633512
                 },
                 {
                     "ap1Name": "geometry",
@@ -196,6 +253,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 861282,
                     "ap2ID": 633512
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 247361",
+                    "ap1ID": 171736,
+                    "ap2ID": 100758
                 },
                 {
                     "ap1Name": "geometry",
@@ -236,8 +299,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller",
-                    "x": 351,
-                    "y": 58,
+                    "x": 348,
+                    "y": 53,
                     "uniqueID": 480013,
                     "ioValues": [
                         {
@@ -255,7 +318,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Bearings",
-                            "ioValue": 10
+                            "ioValue": 60
                         }
                     ]
                 },
@@ -272,6 +335,10 @@
                         },
                         {
                             "name": "3D shape 925802",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 436038",
                             "ioValue": 10
                         }
                     ]
@@ -292,9 +359,21 @@
                     "ap2ID": 480013
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Dist Between Bearings",
+                    "ap1ID": 903654,
+                    "ap2ID": 263311
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 283596",
                     "ap1ID": 480013,
+                    "ap2ID": 308787
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 925802",
+                    "ap1ID": 263311,
                     "ap2ID": 308787
                 },
                 {
