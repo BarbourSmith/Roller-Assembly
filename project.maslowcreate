@@ -149,7 +149,24 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 861,
+                    "y": 96,
+                    "uniqueID": 100758,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 864862",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 247361",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -179,6 +196,17 @@
                     "ap2Name": "geometry",
                     "ap1ID": 861282,
                     "ap2ID": 633512
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 864862",
+                    "ap1ID": 633512,
+                    "ap2ID": 100758
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 100758
                 }
             ],
             "fileTypeVersion": 1
