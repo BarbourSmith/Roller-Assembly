@@ -600,15 +600,15 @@
                     "uniqueID": 308787,
                     "ioValues": [
                         {
-                            "name": "3D shape 283596",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 925802",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 436038",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 540999",
                             "ioValue": 10
                         }
                     ],
@@ -622,15 +622,15 @@
                     "uniqueID": 308787,
                     "ioValues": [
                         {
-                            "name": "3D shape 283596",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 925802",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 436038",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 659881",
                             "ioValue": 10
                         }
                     ],
@@ -671,13 +671,7 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 283596",
-                    "ap1ID": 480013,
-                    "ap2ID": 308787
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 283596",
+                    "ap2Name": "3D shape 436038",
                     "ap1ID": 480013,
                     "ap2ID": 308787
                 },
