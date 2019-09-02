@@ -88,6 +88,92 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Roller",
+            "x": 348,
+            "y": 53,
+            "uniqueID": 480013,
+            "ioValues": [
+                {
+                    "name": "Center Length",
+                    "ioValue": 60
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Center Length",
+                    "x": 67,
+                    "y": 63,
+                    "uniqueID": 461616,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller",
+                    "x": 476,
+                    "y": 136,
+                    "uniqueID": 829505,
+                    "projectID": "197579630",
+                    "ioValues": [
+                        {
+                            "name": "Center Length",
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 812,
+                    "y": 78,
+                    "uniqueID": 514004,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -7
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Center Length",
+                    "ap1ID": 461616,
+                    "ap2ID": 829505
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 829505,
+                    "ap2ID": 514004
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 514004
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Bearing Blocks",
             "x": 349,
             "y": 125,
@@ -199,7 +285,177 @@
                             "name": "3D shape 396695",
                             "ioValue": 10
                         }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 264762,
+                    "ap2ID": 861282
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 108908,
+                    "ap2ID": 633512
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 861282,
+                    "ap2ID": 171736
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 861282,
+                    "ap2ID": 633512
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 864862",
+                    "ap1ID": 633512,
+                    "ap2ID": 100758
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 247361",
+                    "ap1ID": 171736,
+                    "ap2ID": 100758
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 100758
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Bearing Blocks",
+            "x": 349,
+            "y": 125,
+            "uniqueID": 263311,
+            "ioValues": [
+                {
+                    "name": "Dist Between Bearings",
+                    "ioValue": 60
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Bearing Block",
+                    "x": 167,
+                    "y": 166,
+                    "uniqueID": 264762,
+                    "projectID": "198286049",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Dist Between Bearings",
+                    "x": 295,
+                    "y": 42,
+                    "uniqueID": 108908,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 443,
+                    "y": 159,
+                    "uniqueID": 861282,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 7
+                        }
                     ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 640,
+                    "y": 45,
+                    "uniqueID": 633512,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 612,
+                    "y": 202,
+                    "uniqueID": 171736,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 861,
+                    "y": 96,
+                    "uniqueID": 100758,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 864862",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 247361",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 396695",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -277,6 +533,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Distance Between Walls",
+                    "x": 71,
+                    "y": 54,
+                    "uniqueID": 903654,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Roller",
                     "x": 348,
@@ -285,6 +549,32 @@
                     "ioValues": [
                         {
                             "name": "Center Length",
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Roller",
+                    "x": 348,
+                    "y": 53,
+                    "uniqueID": 480013,
+                    "ioValues": [
+                        {
+                            "name": "Center Length",
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Bearing Blocks",
+                    "x": 349,
+                    "y": 125,
+                    "uniqueID": 263311,
+                    "ioValues": [
+                        {
+                            "name": "Dist Between Bearings",
                             "ioValue": 60
                         }
                     ]
@@ -321,7 +611,30 @@
                             "name": "3D shape 436038",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 846,
+                    "y": 115,
+                    "uniqueID": 308787,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 283596",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 925802",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 436038",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -345,9 +658,33 @@
                     "ap2ID": 263311
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Center Length",
+                    "ap1ID": 903654,
+                    "ap2ID": 480013
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Dist Between Bearings",
+                    "ap1ID": 903654,
+                    "ap2ID": 263311
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 283596",
                     "ap1ID": 480013,
+                    "ap2ID": 308787
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 283596",
+                    "ap1ID": 480013,
+                    "ap2ID": 308787
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 925802",
+                    "ap1ID": 263311,
                     "ap2ID": 308787
                 },
                 {
