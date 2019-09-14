@@ -133,21 +133,3 @@ undefined
 ## Plug to clear center
 
 
-## AS5048 Test PCB
-
-
-## Chip
-
-
-## PCB
-
-
-## Mounting Holes
-
-
-## Headers
-
-
-undefined
-
-
