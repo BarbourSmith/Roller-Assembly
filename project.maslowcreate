@@ -371,7 +371,7 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "AS5048 Test PCB",
-                    "x": 75,
+                    "x": 69,
                     "y": 256,
                     "uniqueID": 476662,
                     "projectID": "198829562",
