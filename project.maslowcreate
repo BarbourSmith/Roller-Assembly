@@ -278,15 +278,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 396695",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 864862",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 247361",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 396695",
                             "ioValue": 10
                         }
                     ],
@@ -362,8 +362,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Bearing Block",
-                    "x": 167,
-                    "y": 166,
+                    "x": 91,
+                    "y": 118,
                     "uniqueID": 264762,
                     "projectID": "198286049",
                     "ioValues": []
@@ -371,9 +371,9 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "AS5048 Test PCB",
-                    "x": 112,
-                    "y": 266,
-                    "uniqueID": 710149,
+                    "x": 99,
+                    "y": 260,
+                    "uniqueID": 332646,
                     "projectID": "198829562",
                     "ioValues": []
                 },
@@ -388,9 +388,9 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 335,
-                    "y": 278,
-                    "uniqueID": 475946,
+                    "x": 232,
+                    "y": 257,
+                    "uniqueID": 325147,
                     "ioValues": [
                         {
                             "name": "x-axis degrees",
@@ -409,8 +409,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 436,
-                    "y": 166,
+                    "x": 359,
+                    "y": 140,
                     "uniqueID": 861282,
                     "ioValues": [
                         {
@@ -430,9 +430,9 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 453,
-                    "y": 291,
-                    "uniqueID": 904131,
+                    "x": 397,
+                    "y": 259,
+                    "uniqueID": 996465,
                     "ioValues": [
                         {
                             "name": "xDist",
@@ -451,24 +451,24 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 571,
-                    "y": 239,
-                    "uniqueID": 468146,
+                    "x": 527,
+                    "y": 199,
+                    "uniqueID": 342182,
                     "ioValues": [
                         {
-                            "name": "3D shape 683293",
+                            "name": "3D shape 791458",
                             "ioValue": ""
                         },
                         {
-                            "name": "3D shape 599157",
+                            "name": "3D shape 445525",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 561025",
+                            "name": "3D shape 367754",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 683293",
+                            "name": "3D shape 791458",
                             "ioValue": 10
                         }
                     ],
@@ -498,8 +498,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 664,
-                    "y": 196,
+                    "x": 702,
+                    "y": 200,
                     "uniqueID": 171736,
                     "ioValues": [
                         {
@@ -524,8 +524,12 @@
                     "uniqueID": 100758,
                     "ioValues": [
                         {
-                            "name": "3D shape 751655",
+                            "name": "3D shape 396695",
                             "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 396695",
+                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 864862",
@@ -533,10 +537,6 @@
                         },
                         {
                             "name": "3D shape 247361",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 751655",
                             "ioValue": 10
                         }
                     ],
@@ -560,8 +560,8 @@
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 710149,
-                    "ap2ID": 475946
+                    "ap1ID": 332646,
+                    "ap2ID": 325147
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -572,8 +572,8 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 475946,
-                    "ap2ID": 904131
+                    "ap1ID": 325147,
+                    "ap2ID": 996465
                 },
                 {
                     "ap1Name": "geometry",
@@ -583,20 +583,20 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 561025",
+                    "ap2Name": "3D shape 367754",
                     "ap1ID": 861282,
-                    "ap2ID": 468146
+                    "ap2ID": 342182
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 599157",
-                    "ap1ID": 904131,
-                    "ap2ID": 468146
+                    "ap2Name": "3D shape 445525",
+                    "ap1ID": 996465,
+                    "ap2ID": 342182
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 468146,
+                    "ap1ID": 342182,
                     "ap2ID": 171736
                 },
                 {
@@ -717,15 +717,15 @@
                             "ioValue": ""
                         },
                         {
-                            "name": "3D shape 925802",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 436038",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 540999",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 925802",
                             "ioValue": 10
                         }
                     ],
@@ -743,15 +743,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 659881",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 925802",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 436038",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 659881",
                             "ioValue": 10
                         }
                     ],
