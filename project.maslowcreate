@@ -362,8 +362,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Bearing Block",
-                    "x": 167,
-                    "y": 166,
+                    "x": 112,
+                    "y": 113,
                     "uniqueID": 264762,
                     "projectID": "198286049",
                     "ioValues": []
@@ -377,27 +377,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 301,
-                    "y": 250,
-                    "uniqueID": 853484,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 443,
-                    "y": 159,
+                    "x": 389,
+                    "y": 115,
                     "uniqueID": 861282,
                     "ioValues": [
                         {
@@ -415,23 +398,10 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 489,
-                    "y": 257,
-                    "uniqueID": 991647,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 640,
-                    "y": 45,
+                    "x": 577,
+                    "y": 49,
                     "uniqueID": 633512,
                     "ioValues": [
                         {
@@ -451,8 +421,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 613,
-                    "y": 199,
+                    "x": 598,
+                    "y": 153,
                     "uniqueID": 171736,
                     "ioValues": [
                         {
@@ -519,12 +489,6 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 853484,
-                    "ap2ID": 991647
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
                     "ap1ID": 861282,
                     "ap2ID": 171736
                 },
@@ -550,6 +514,145 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 100758
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Blocks And Encoder",
+            "x": 377,
+            "y": 208,
+            "uniqueID": 531860,
+            "ioValues": [
+                {
+                    "name": "Spacing",
+                    "ioValue": 60
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Spacing",
+                    "x": 67,
+                    "y": 50,
+                    "uniqueID": 237495,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Bearing Block",
+                    "x": 39,
+                    "y": 186,
+                    "uniqueID": 979912,
+                    "projectID": "198286049",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 195,
+                    "y": 157,
+                    "uniqueID": 626512,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 7
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "AS5048 Test PCB",
+                    "x": 143,
+                    "y": 254,
+                    "uniqueID": 877161,
+                    "projectID": "198829562",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 362,
+                    "y": 59,
+                    "uniqueID": 954281,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 375,
+                    "y": 202,
+                    "uniqueID": 973687,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 237495,
+                    "ap2ID": 954281
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 979912,
+                    "ap2ID": 626512
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 626512,
+                    "ap2ID": 954281
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 626512,
+                    "ap2ID": 973687
                 }
             ],
             "fileTypeVersion": 1
@@ -637,6 +740,19 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Blocks And Encoder",
+                    "x": 377,
+                    "y": 208,
+                    "uniqueID": 531860,
+                    "ioValues": [
+                        {
+                            "name": "Spacing",
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 846,
@@ -701,6 +817,12 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Spacing",
+                    "ap1ID": 903654,
+                    "ap2ID": 531860
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Center Length",
