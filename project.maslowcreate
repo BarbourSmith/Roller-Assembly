@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller",
-            "x": 348,
-            "y": 53,
+            "x": 401,
+            "y": 74,
             "uniqueID": 480013,
             "ioValues": [
                 {
@@ -89,8 +89,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller",
-            "x": 348,
-            "y": 53,
+            "x": 401,
+            "y": 74,
             "uniqueID": 480013,
             "ioValues": [
                 {
@@ -174,355 +174,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Bearing Blocks",
-            "x": 349,
-            "y": 125,
-            "uniqueID": 263311,
-            "ioValues": [
-                {
-                    "name": "Dist Between Bearings",
-                    "ioValue": 60
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Bearing Block",
-                    "x": 167,
-                    "y": 166,
-                    "uniqueID": 264762,
-                    "projectID": "198286049",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Dist Between Bearings",
-                    "x": 295,
-                    "y": 42,
-                    "uniqueID": 108908,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 443,
-                    "y": 159,
-                    "uniqueID": 861282,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 7
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 640,
-                    "y": 45,
-                    "uniqueID": 633512,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 60
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 612,
-                    "y": 202,
-                    "uniqueID": 171736,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 180
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 861,
-                    "y": 96,
-                    "uniqueID": 100758,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 396695",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 396695",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 864862",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 247361",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 264762,
-                    "ap2ID": 861282
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
-                    "ap1ID": 108908,
-                    "ap2ID": 633512
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 861282,
-                    "ap2ID": 171736
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 861282,
-                    "ap2ID": 633512
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 864862",
-                    "ap1ID": 633512,
-                    "ap2ID": 100758
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 247361",
-                    "ap1ID": 171736,
-                    "ap2ID": 100758
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 100758
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Bearing Blocks",
-            "x": 349,
-            "y": 125,
-            "uniqueID": 263311,
-            "ioValues": [
-                {
-                    "name": "Dist Between Bearings",
-                    "ioValue": 60
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Bearing Block",
-                    "x": 167,
-                    "y": 166,
-                    "uniqueID": 264762,
-                    "projectID": "198286049",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Dist Between Bearings",
-                    "x": 295,
-                    "y": 42,
-                    "uniqueID": 108908,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 443,
-                    "y": 159,
-                    "uniqueID": 861282,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 7
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 640,
-                    "y": 45,
-                    "uniqueID": 633512,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 60
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 612,
-                    "y": 202,
-                    "uniqueID": 171736,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 180
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 861,
-                    "y": 96,
-                    "uniqueID": 100758,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 396695",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 396695",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 864862",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 247361",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 264762,
-                    "ap2ID": 861282
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
-                    "ap1ID": 108908,
-                    "ap2ID": 633512
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 861282,
-                    "ap2ID": 171736
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 861282,
-                    "ap2ID": 633512
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 864862",
-                    "ap1ID": 633512,
-                    "ap2ID": 100758
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 247361",
-                    "ap1ID": 171736,
-                    "ap2ID": 100758
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 100758
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Blocks And Encoder",
-            "x": 377,
-            "y": 208,
+            "x": 405,
+            "y": 170,
             "uniqueID": 531860,
             "ioValues": [
                 {
@@ -654,15 +308,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 623427",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 458182",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 205342",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 623427",
                             "ioValue": 10
                         }
                     ],
@@ -680,15 +334,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 842768",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 100865",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 135252",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 842768",
                             "ioValue": 10
                         }
                     ],
@@ -798,8 +452,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller",
-                    "x": 348,
-                    "y": 53,
+                    "x": 401,
+                    "y": 74,
                     "uniqueID": 480013,
                     "ioValues": [
                         {
@@ -811,8 +465,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller",
-                    "x": 348,
-                    "y": 53,
+                    "x": 401,
+                    "y": 74,
                     "uniqueID": 480013,
                     "ioValues": [
                         {
@@ -823,35 +477,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Bearing Blocks",
-                    "x": 349,
-                    "y": 125,
-                    "uniqueID": 263311,
-                    "ioValues": [
-                        {
-                            "name": "Dist Between Bearings",
-                            "ioValue": 60
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Bearing Blocks",
-                    "x": 349,
-                    "y": 125,
-                    "uniqueID": 263311,
-                    "ioValues": [
-                        {
-                            "name": "Dist Between Bearings",
-                            "ioValue": 60
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Molecule",
                     "name": "Blocks And Encoder",
-                    "x": 377,
-                    "y": 208,
+                    "x": 405,
+                    "y": 170,
                     "uniqueID": 531860,
                     "ioValues": [
                         {
@@ -863,54 +491,24 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 846,
-                    "y": 115,
-                    "uniqueID": 308787,
+                    "x": 685,
+                    "y": 112,
+                    "uniqueID": 330969,
                     "ioValues": [
                         {
-                            "name": "3D shape 436038",
+                            "name": "3D shape 984078",
                             "ioValue": ""
                         },
                         {
-                            "name": "3D shape 540999",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 436038",
+                            "name": "3D shape 273200",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 540999",
+                            "name": "3D shape 288006",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 925802",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 846,
-                    "y": 115,
-                    "uniqueID": 308787,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 659881",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 659881",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 925802",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 436038",
+                            "name": "3D shape 984078",
                             "ioValue": 10
                         }
                     ],
@@ -939,44 +537,26 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "Dist Between Bearings",
-                    "ap1ID": 903654,
-                    "ap2ID": 263311
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "Center Length",
                     "ap1ID": 903654,
                     "ap2ID": 480013
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Dist Between Bearings",
-                    "ap1ID": 903654,
-                    "ap2ID": 263311
-                },
-                {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 436038",
+                    "ap2Name": "3D shape 288006",
                     "ap1ID": 480013,
-                    "ap2ID": 308787
+                    "ap2ID": 330969
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 925802",
-                    "ap1ID": 263311,
-                    "ap2ID": 308787
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 925802",
-                    "ap1ID": 263311,
-                    "ap2ID": 308787
+                    "ap2Name": "3D shape 273200",
+                    "ap1ID": 531860,
+                    "ap2ID": 330969
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 308787
+                    "ap1ID": 330969
                 }
             ],
             "fileTypeVersion": 1
