@@ -2,11 +2,11 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Encoder PCB|8|$56.00|www.example.com|
-|M4 Bolt|8|$0.72|https://www.mcmaster.com/92095a190|
+|Magnet|1|$1.50|https://dextermag.eu/|
 |Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
-|Magnet|3|$4.50|https://dextermag.eu/|
-|Roller|3|$10.50|www.example.com|
-|Total: |24|$74.72| |
+|M4 Bolt|4|$0.36|https://www.mcmaster.com/92095a190|
+|Encoder PCB|1|$7.00|www.example.com|
+|Roller|1|$3.50|www.example.com|
+|Total: |9|$15.36| |
 
- 3xCOG MSRP: $224.16
+ 3xCOG MSRP: $46.08
