@@ -9,7 +9,7 @@
             "ioValues": [
                 {
                     "name": "Center Length",
-                    "ioValue": 60
+                    "ioValue": 40
                 }
             ],
             "topLevel": false,
@@ -20,7 +20,12 @@
                     "x": 67,
                     "y": 63,
                     "uniqueID": 461616,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -32,7 +37,7 @@
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 60
+                            "ioValue": 40
                         }
                     ]
                 },
@@ -95,7 +100,7 @@
             "ioValues": [
                 {
                     "name": "Center Length",
-                    "ioValue": 60
+                    "ioValue": 40
                 }
             ],
             "topLevel": false,
@@ -106,7 +111,12 @@
                     "x": 67,
                     "y": 63,
                     "uniqueID": 461616,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -118,7 +128,7 @@
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 60
+                            "ioValue": 40
                         }
                     ]
                 },
@@ -181,7 +191,7 @@
             "ioValues": [
                 {
                     "name": "Spacing",
-                    "ioValue": 60
+                    "ioValue": 40
                 }
             ],
             "topLevel": false,
@@ -192,7 +202,12 @@
                     "x": 67,
                     "y": 50,
                     "uniqueID": 237495,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -227,10 +242,19 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "AS5048 Test PCB",
-                    "x": 143,
-                    "y": 254,
+                    "x": 114,
+                    "y": 232,
                     "uniqueID": 877161,
                     "projectID": "198829562",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Encoder Board",
+                    "x": 87,
+                    "y": 292,
+                    "uniqueID": 958667,
+                    "projectID": "210416841",
                     "ioValues": []
                 },
                 {
@@ -250,7 +274,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 60
+                            "ioValue": 40
                         }
                     ]
                 },
@@ -439,7 +463,12 @@
                     "x": 71,
                     "y": 54,
                     "uniqueID": 903654,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 40
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -447,18 +476,23 @@
                     "x": 71,
                     "y": 54,
                     "uniqueID": 903654,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Roller",
-                    "x": 401,
-                    "y": 74,
-                    "uniqueID": 480013,
                     "ioValues": [
                         {
-                            "name": "Center Length",
-                            "ioValue": 60
+                            "name": "default value",
+                            "ioValue": 40
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 107,
+                    "y": 207,
+                    "uniqueID": 199810,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 40
                         }
                     ]
                 },
@@ -471,7 +505,20 @@
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 60
+                            "ioValue": 40
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Roller",
+                    "x": 401,
+                    "y": 74,
+                    "uniqueID": 480013,
+                    "ioValues": [
+                        {
+                            "name": "Center Length",
+                            "ioValue": 40
                         }
                     ]
                 },
@@ -484,7 +531,7 @@
                     "ioValues": [
                         {
                             "name": "Spacing",
-                            "ioValue": 60
+                            "ioValue": 40
                         }
                     ]
                 },
@@ -500,15 +547,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 984078",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 273200",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 288006",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 984078",
                             "ioValue": 10
                         }
                     ],
@@ -540,6 +587,12 @@
                     "ap2Name": "Center Length",
                     "ap1ID": 903654,
                     "ap2ID": 480013
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "default value",
+                    "ap1ID": 199810,
+                    "ap2ID": 903654
                 },
                 {
                     "ap1Name": "Geometry",
