@@ -94,8 +94,8 @@
         {
             "atomType": "Molecule",
             "name": "Bolts",
-            "x": 191,
-            "y": 101,
+            "x": 192,
+            "y": 98,
             "uniqueID": 423462,
             "ioValues": [],
             "topLevel": false,
@@ -135,7 +135,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 7
+                            "ioValue": 9.5
                         }
                     ]
                 },
@@ -258,11 +258,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -10
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         },
                         {
                             "name": "zDist",
@@ -279,11 +279,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -10
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -10
                         },
                         {
                             "name": "zDist",
@@ -459,8 +459,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 191,
-                    "y": 101,
+                    "x": 192,
+                    "y": 98,
                     "uniqueID": 423462,
                     "ioValues": []
                 },
@@ -488,8 +488,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 329,
-                    "y": 119,
+                    "x": 331,
+                    "y": 118,
                     "uniqueID": 897059,
                     "ioValues": [
                         {
@@ -687,12 +687,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 626512,
-                    "ap2ID": 954281
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 626512,
                     "ap2ID": 973687
                 },
                 {
@@ -700,6 +694,12 @@
                     "ap2Name": "3D shape 804450",
                     "ap1ID": 626512,
                     "ap2ID": 897059
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 897059,
+                    "ap2ID": 954281
                 },
                 {
                     "ap1Name": "Geometry",
