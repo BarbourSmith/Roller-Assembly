@@ -101,6 +101,24 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "M4x20 Bolt",
+                    "x": 85,
+                    "y": 108,
+                    "uniqueID": 138908,
+                    "projectID": "198850770",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "M4 Locknut",
+                    "x": 84,
+                    "y": 178,
+                    "uniqueID": 813270,
+                    "projectID": "201057537",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1001,
@@ -188,15 +206,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 750782",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 804450",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 678720",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 750782",
                             "ioValue": 10
                         }
                     ],
