@@ -65,8 +65,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -156,7 +156,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -3
+                            "ioValue": -5
                         }
                     ]
                 },
@@ -189,19 +189,11 @@
                     "uniqueID": 445064,
                     "ioValues": [
                         {
-                            "name": "3D shape 485763",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "3D shape 960462",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 691431",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 485763",
                             "ioValue": 10
                         }
                     ],
@@ -299,10 +291,6 @@
                     "uniqueID": 213867,
                     "ioValues": [
                         {
-                            "name": "3D shape 358707",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "3D shape 594418",
                             "ioValue": 10
                         },
@@ -317,10 +305,6 @@
                         {
                             "name": "3D shape 301644",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 358707",
-                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -328,8 +312,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -423,8 +407,8 @@
         {
             "atomType": "Molecule",
             "name": "Blocks And Encoder",
-            "x": 467,
-            "y": 253,
+            "x": 462,
+            "y": 251,
             "uniqueID": 531860,
             "ioValues": [
                 {
@@ -492,14 +476,6 @@
                     "y": 118,
                     "uniqueID": 897059,
                     "ioValues": [
-                        {
-                            "name": "3D shape 750782",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 750782",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 804450",
                             "ioValue": 10
@@ -612,14 +588,6 @@
                     "uniqueID": 214323,
                     "ioValues": [
                         {
-                            "name": "3D shape 623427",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 623427",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 458182",
                             "ioValue": 10
                         },
@@ -638,14 +606,6 @@
                     "uniqueID": 106282,
                     "ioValues": [
                         {
-                            "name": "3D shape 842768",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 842768",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 100865",
                             "ioValue": 10
                         },
@@ -659,8 +619,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -801,8 +761,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Blocks And Encoder",
-                    "x": 467,
-                    "y": 253,
+                    "x": 462,
+                    "y": 251,
                     "uniqueID": 531860,
                     "ioValues": [
                         {
@@ -819,14 +779,6 @@
                     "uniqueID": 330969,
                     "ioValues": [
                         {
-                            "name": "3D shape 984078",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 984078",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 273200",
                             "ioValue": 10
                         },
@@ -840,8 +792,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
